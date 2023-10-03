@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56A64AF2ACC8221006A8CAC /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A64AE2ACC8221006A8CAC /* EditDestinationView.swift */; };
+		A56A64B12ACC8A45006A8CAC /* DestinationListenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A64B02ACC8A45006A8CAC /* DestinationListenView.swift */; };
+		A56A64B32ACC93A4006A8CAC /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A64B22ACC93A4006A8CAC /* Sight.swift */; };
 		A5D358B22ACC7445006D997F /* SwiftDataTutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D358B12ACC7445006D997F /* SwiftDataTutorApp.swift */; };
 		A5D358B42ACC7445006D997F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D358B32ACC7445006D997F /* ContentView.swift */; };
 		A5D358B62ACC7446006D997F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D358B52ACC7446006D997F /* Assets.xcassets */; };
 		A5D358BA2ACC7446006D997F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D358B92ACC7446006D997F /* Preview Assets.xcassets */; };
+		A5D358C12ACC75A9006D997F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D358C02ACC75A9006D997F /* Destination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A56A64AE2ACC8221006A8CAC /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
+		A56A64B02ACC8A45006A8CAC /* DestinationListenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListenView.swift; sourceTree = "<group>"; };
+		A56A64B22ACC93A4006A8CAC /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 		A5D358AE2ACC7445006D997F /* SwiftDataTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D358B12ACC7445006D997F /* SwiftDataTutorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataTutorApp.swift; sourceTree = "<group>"; };
 		A5D358B32ACC7445006D997F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5D358B52ACC7446006D997F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D358B72ACC7446006D997F /* SwiftDataTutor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataTutor.entitlements; sourceTree = "<group>"; };
 		A5D358B92ACC7446006D997F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5D358C02ACC75A9006D997F /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				A5D358B12ACC7445006D997F /* SwiftDataTutorApp.swift */,
 				A5D358B32ACC7445006D997F /* ContentView.swift */,
+				A56A64AE2ACC8221006A8CAC /* EditDestinationView.swift */,
+				A56A64B02ACC8A45006A8CAC /* DestinationListenView.swift */,
+				A56A64B22ACC93A4006A8CAC /* Sight.swift */,
+				A5D358C02ACC75A9006D997F /* Destination.swift */,
 				A5D358B52ACC7446006D997F /* Assets.xcassets */,
 				A5D358B72ACC7446006D997F /* SwiftDataTutor.entitlements */,
 				A5D358B82ACC7446006D997F /* Preview Content */,
@@ -141,6 +153,10 @@
 			files = (
 				A5D358B42ACC7445006D997F /* ContentView.swift in Sources */,
 				A5D358B22ACC7445006D997F /* SwiftDataTutorApp.swift in Sources */,
+				A5D358C12ACC75A9006D997F /* Destination.swift in Sources */,
+				A56A64B32ACC93A4006A8CAC /* Sight.swift in Sources */,
+				A56A64AF2ACC8221006A8CAC /* EditDestinationView.swift in Sources */,
+				A56A64B12ACC8A45006A8CAC /* DestinationListenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
